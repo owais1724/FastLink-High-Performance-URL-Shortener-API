@@ -28,10 +28,13 @@ Server: Uvicorn
 Validation: Pydantic
 
 📂 Project Structure
+
 url-shortner/
 │
-├── main.py          # Main FastAPI application
+├── main.py   # Main FastAPI application
+
 ├── README.md        # Project documentation
+
 └── requirements.txt
 
 ▶️ How to Run the Project
@@ -39,6 +42,7 @@ url-shortner/
 1️⃣ Clone the repository
 
 git clone <your-repo-url>
+
 cd url-shortner
 
 2️⃣ Install dependencies
@@ -59,6 +63,7 @@ http://127.0.0.1:8000/docs
 You’ll get an interactive Swagger UI to test the API.
 
 🔧 API Endpoints
+
 🔹 Shorten a URL
 
 POST /shorten
@@ -74,6 +79,7 @@ Response
 
 {
   "short_url": "http://127.0.0.1:8000/aB3xZ9",
+  
   "original_url": "https://www.google.com"
 }
 
