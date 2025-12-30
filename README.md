@@ -35,14 +35,18 @@ url-shortner/
 └── requirements.txt
 
 ▶️ How to Run the Project
+
 1️⃣ Clone the repository
+
 git clone <your-repo-url>
 cd url-shortner
 
 2️⃣ Install dependencies
+
 pip install fastapi uvicorn
 
 3️⃣ Run the server
+
 uvicorn main:app --reload
 
 🌐 API Documentation
@@ -111,6 +115,7 @@ Get redirected 🎉
 👨‍💻 Author
 
 Syed Owais Mohiuddin
+
 AI & ML | Backend | FastAPI | Python
 
 📜 License
